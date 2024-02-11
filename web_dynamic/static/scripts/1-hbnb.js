@@ -6,6 +6,6 @@ $('document').ready(function () {
     } else {
       delete amenities[$(this).attr('data-id')];
     }
-    $('.amenities H4').tet(Object.values(amenities).join(', '));
+    $('.amenities H4').text(Object.values(amenities).join(', '));
   });
 });
